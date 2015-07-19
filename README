@@ -1,0 +1,14 @@
+How to create your own c libraries in LINUX...!
+ - While making code for online coding contests, you might endup writting the same code again and againh.
+ - Better way is to make the the recurring code as a library.
+ - Ex. if you need to linked-list data structure create library of basic actions performed on ll.
+Simple steps to create library:
+	1: Write recurring code in c file, make sure to add statis main function, so that it will not show any error while compilation.
+
+	gcc -Wall -c <file>.c
+
+	this will create <file>.o object file
+	2: Add this obj file to /usr/lib/lib<file>.a
+	3: Add this library to c/c++ code as, 
+	
+	gcc -l<file> <your_code>.c
