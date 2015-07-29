@@ -6,6 +6,7 @@ int main()
 	scanf("%d", &no);
 	printf("\n");
 	tmp = no;
+	printf("%s\n",__FUNCTION__);
 again:
 	index = 1;
 	sum = 0;
