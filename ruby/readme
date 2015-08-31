@@ -1,0 +1,9 @@
+@@var-name
+class variables are have kinda static nature
+
+class methods are distinguish from normal methods by putting class name in front of method name
+Class.mathod   - class method
+
+constants start with uppercase letter, like class name
+
+
