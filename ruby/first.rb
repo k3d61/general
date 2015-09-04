@@ -1,8 +1,8 @@
-class First
-	def initialize
-		puts "\nin \n initialze method\n"
+class First < Button
+
 	end
 	def test
+		start_button = Button.new("Start")
 	
 		ARGF.each_line do |line|
 			puts line
@@ -13,12 +13,3 @@ end
 o = First.new
 
 o.test
-o.inspect
-class Second < First
-	def initialize
-		puts "second"
-	end
-end
-b = Second.new
-b.test
-b.inspect
