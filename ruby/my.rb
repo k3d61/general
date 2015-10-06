@@ -1,10 +1,5 @@
-def say
-	i = 0
-	while i < 10 
-		puts( "Hello" )
-		i += 1
-	end
+def cal
+	num = Array.new(10) { |e| e = e * 2 }
+	puts "#{num}"
 end
-
-
-say
+cal
