@@ -1,4 +1,6 @@
 import os, sys
 import subprocess
-ret = subprocess.call(["ls", "-l"])
+#subprocess.call("ifconfig")
+ret = subprocess.check_output("ifconfig wlp18s0", shell=True )
+
 print( ret )
